@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+
+nav {
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow";
+}
+
+.nav-item {
+    background-color: white;
+}
+
+.nav-link:hover {
+    opacity: 1.0;
+    background-color: red;
+}
+
+header {
+    background-image: url(https://paintings.pinotspalette.com/paradise-sunset-tv.jpg?v=10030141);
+
+
+}
+
+.services i {
+    /*/"Adjust the size and position of the icon"/*/
+    font-size: 30px;
+    Padding: 25px 20px;
+    /*Color changes the color of the icon*/
+    color: #fff;
+    background-color: #5bc0de;
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+
+
+.services span {
+    width: 200px;
+    display: inline-block;
+}
+
+
+.team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px
+}
+
+.contacts .input-group {
+    margin-bottom: 50px;
+}
+
+.contacts i {
+    padding: 17px;
+}
